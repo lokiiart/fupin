@@ -248,3 +248,291 @@ SyntaxError: invalid syntax
 [ 2016-08-29 20:54:36.8842 19666/7f20bc464700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
 [ 2016-08-29 20:54:36.8843 19666/7f20c30b7780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
 [ 2016-08-29 20:54:36.9160 19661/7f43db4fb780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-08-29 21:14:33.5884 20622/7f81bb5db780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2016-08-29 21:14:33.6159 20625/7fc0e19d5780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-08-29 21:14:33.6160 20625/7fc0e19d5780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-08-29 21:14:33.6173 20625/7fc0e19d5780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 20625
+[ 2016-08-29 21:14:33.6456 20630/7fd24f586780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-08-29 21:14:33.6461 20630/7fd24f586780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 20630
+App 20663 stdout: 
+App 20663 stderr: Traceback (most recent call last):
+App 20663 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 325, in <module>
+App 20663 stderr:     
+App 20663 stderr: app_module = load_app()
+App 20663 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 62, in load_app
+App 20663 stderr:     
+App 20663 stderr: return imp.load_source('passenger_wsgi', startup_file)
+App 20663 stderr:   File "/home/loki/python/passenger_wsgi.py", line 1, in <module>
+App 20663 stderr:     
+App 20663 stderr: from app import MyApp as application
+App 20663 stderr:   File "/home/loki/python/app.py", line 2, in <module>
+App 20663 stderr:     
+App 20663 stderr: import requests
+App 20663 stderr: ImportError
+App 20663 stderr: : 
+App 20663 stderr: No module named requests
+App 20663 stderr: 
+[ 2016-08-29 21:14:35.8950 20625/7fc0e1865700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/loki/python: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: 984929c4
+  Error details saved to: /tmp/passenger-error-p8IqQu.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+Traceback (most recent call last):
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 325, in &lt;module&gt;
+    app_module = load_app()
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 62, in load_app
+    return imp.load_source(&apos;passenger_wsgi&apos;, startup_file)
+  File &quot;/home/loki/python/passenger_wsgi.py&quot;, line 1, in &lt;module&gt;
+    from app import MyApp as application
+  File &quot;/home/loki/python/app.py&quot;, line 2, in &lt;module&gt;
+    import requests
+ImportError: No module named requests
+</pre>
+
+[ 2016-08-29 21:14:35.8990 20625/7fc0dadc1700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 984929c4. Please see earlier logs for details about the error.
+App 20676 stdout: 
+App 20676 stderr: Traceback (most recent call last):
+App 20676 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 325, in <module>
+App 20676 stderr:     
+App 20676 stderr: app_module = load_app()
+App 20676 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 62, in load_app
+App 20676 stderr:     
+App 20676 stderr: return imp.load_source('passenger_wsgi', startup_file)
+App 20676 stderr:   File "/home/loki/python/passenger_wsgi.py", line 1, in <module>
+App 20676 stderr:     
+App 20676 stderr: from app import MyApp as application
+App 20676 stderr:   File "/home/loki/python/app.py", line 2, in <module>
+App 20676 stderr:     
+App 20676 stderr: import requests
+App 20676 stderr: ImportError
+App 20676 stderr: : 
+App 20676 stderr: No module named requests
+App 20676 stderr: 
+[ 2016-08-29 21:14:37.7226 20625/7fc0e1865700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/loki/python: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: 82f96a1e
+  Error details saved to: /tmp/passenger-error-pSc5Zd.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+Traceback (most recent call last):
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 325, in &lt;module&gt;
+    app_module = load_app()
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 62, in load_app
+    return imp.load_source(&apos;passenger_wsgi&apos;, startup_file)
+  File &quot;/home/loki/python/passenger_wsgi.py&quot;, line 1, in &lt;module&gt;
+    from app import MyApp as application
+  File &quot;/home/loki/python/app.py&quot;, line 2, in &lt;module&gt;
+    import requests
+ImportError: No module named requests
+</pre>
+
+[ 2016-08-29 21:14:37.7268 20625/7fc0dadc1700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-2] Cannot checkout session because a spawning error occurred. The identifier of the error is 82f96a1e. Please see earlier logs for details about the error.
+App 20689 stdout: 
+App 20689 stderr: Traceback (most recent call last):
+App 20689 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 325, in <module>
+App 20689 stderr:     
+App 20689 stderr: app_module = load_app()
+App 20689 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 62, in load_app
+App 20689 stderr:     
+App 20689 stderr: return imp.load_source('passenger_wsgi', startup_file)
+App 20689 stderr:   File "/home/loki/python/passenger_wsgi.py", line 1, in <module>
+App 20689 stderr:     
+App 20689 stderr: from app import MyApp as application
+App 20689 stderr:   File "/home/loki/python/app.py", line 2, in <module>
+App 20689 stderr:     
+App 20689 stderr: import requests
+App 20689 stderr: ImportError
+App 20689 stderr: : 
+App 20689 stderr: No module named requests
+App 20689 stderr: 
+[ 2016-08-29 21:14:38.2221 20625/7fc0e1865700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/loki/python: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: 75452115
+  Error details saved to: /tmp/passenger-error-36ERSZ.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+Traceback (most recent call last):
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 325, in &lt;module&gt;
+    app_module = load_app()
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 62, in load_app
+    return imp.load_source(&apos;passenger_wsgi&apos;, startup_file)
+  File &quot;/home/loki/python/passenger_wsgi.py&quot;, line 1, in &lt;module&gt;
+    from app import MyApp as application
+  File &quot;/home/loki/python/app.py&quot;, line 2, in &lt;module&gt;
+    import requests
+ImportError: No module named requests
+</pre>
+
+[ 2016-08-29 21:14:38.2261 20625/7fc0dadc1700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-3] Cannot checkout session because a spawning error occurred. The identifier of the error is 75452115. Please see earlier logs for details about the error.
+
+[ 2016-08-29 21:14:58.9861 20625/7fc0dadc1700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 21:14:58.9862 20625/7fc0e19d5780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 21:14:58.9864 20625/7fc0da5c0700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-08-29 21:14:58.9864 20625/7fc0da5c0700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-08-29 21:14:58.9865 20625/7fc0dadc1700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-08-29 21:14:58.9865 20625/7fc0dadc1700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-08-29 21:14:58.9867 20630/7fd248933700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 21:14:58.9867 20630/7fd24f586780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 21:14:58.9867 20630/7fd243fff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-08-29 21:14:58.9867 20630/7fd243fff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-08-29 21:14:58.9869 20630/7fd248933700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-08-29 21:14:58.9871 20630/7fd24f586780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-08-29 21:14:59.0088 20625/7fc0e19d5780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-08-29 21:15:13.1978 20760/7fd0f09e9780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2016-08-29 21:15:13.2267 20763/7f0513a61780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-08-29 21:15:13.2268 20763/7f0513a61780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-08-29 21:15:13.2282 20763/7f0513a61780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 20763
+[ 2016-08-29 21:15:13.2581 20768/7f02460b6780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-08-29 21:15:13.2587 20768/7f02460b6780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 20768
+App 20796 stdout: 
+App 20796 stderr: [2016-08-29 21:15:15,243] ERROR in app: Exception on / [GET]
+App 20796 stderr: Traceback (most recent call last):
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+App 20796 stderr:     response = self.full_dispatch_request()
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+App 20796 stderr:     rv = self.handle_user_exception(e)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+App 20796 stderr:     reraise(exc_type, exc_value, tb)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+App 20796 stderr:     rv = self.dispatch_request()
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+App 20796 stderr:     return self.view_functions[rule.endpoint](**req.view_args)
+App 20796 stderr:   File "/home/loki/python/app.py", line 8, in hello
+App 20796 stderr:     r = requests.get("www.baidu.com")
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/api.py", line 70, in get
+App 20796 stderr:     return request('get', url, params=params, **kwargs)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/api.py", line 56, in request
+App 20796 stderr:     return session.request(method=method, url=url, **kwargs)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/sessions.py", line 461, in request
+App 20796 stderr:     prep = self.prepare_request(req)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/sessions.py", line 394, in prepare_request
+App 20796 stderr:     hooks=merge_hooks(request.hooks, self.hooks),
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/models.py", line 294, in prepare
+App 20796 stderr:     self.prepare_url(url, params)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/models.py", line 354, in prepare_url
+App 20796 stderr:     raise MissingSchema(error)
+App 20796 stderr: MissingSchema: Invalid URL 'www.baidu.com': No schema supplied. Perhaps you meant http://www.baidu.com?
+App 20796 stderr: [ pid=20796, time=2016-08-29 21:15:15,243 ]: Exception on / [GET]
+App 20796 stderr: Traceback (most recent call last):
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+App 20796 stderr:     response = self.full_dispatch_request()
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+App 20796 stderr:     rv = self.handle_user_exception(e)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+App 20796 stderr:     reraise(exc_type, exc_value, tb)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+App 20796 stderr:     rv = self.dispatch_request()
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+App 20796 stderr:     return self.view_functions[rule.endpoint](**req.view_args)
+App 20796 stderr:   File "/home/loki/python/app.py", line 8, in hello
+App 20796 stderr:     r = requests.get("www.baidu.com")
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/api.py", line 70, in get
+App 20796 stderr:     return request('get', url, params=params, **kwargs)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/api.py", line 56, in request
+App 20796 stderr:     return session.request(method=method, url=url, **kwargs)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/sessions.py", line 461, in request
+App 20796 stderr:     prep = self.prepare_request(req)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/sessions.py", line 394, in prepare_request
+App 20796 stderr:     hooks=merge_hooks(request.hooks, self.hooks),
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/models.py", line 294, in prepare
+App 20796 stderr:     self.prepare_url(url, params)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/models.py", line 354, in prepare_url
+App 20796 stderr:     raise MissingSchema(error)
+App 20796 stderr: MissingSchema: Invalid URL 'www.baidu.com': No schema supplied. Perhaps you meant http://www.baidu.com?
+App 20796 stderr: [2016-08-29 21:15:15,301] ERROR in app: Exception on / [HEAD]
+App 20796 stderr: Traceback (most recent call last):
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+App 20796 stderr:     response = self.full_dispatch_request()
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+App 20796 stderr:     rv = self.handle_user_exception(e)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+App 20796 stderr:     reraise(exc_type, exc_value, tb)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+App 20796 stderr:     rv = self.dispatch_request()
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+App 20796 stderr:     return self.view_functions[rule.endpoint](**req.view_args)
+App 20796 stderr:   File "/home/loki/python/app.py", line 8, in hello
+App 20796 stderr:     r = requests.get("www.baidu.com")
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/api.py", line 70, in get
+App 20796 stderr:     return request('get', url, params=params, **kwargs)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/api.py", line 56, in request
+App 20796 stderr:     return session.request(method=method, url=url, **kwargs)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/sessions.py", line 461, in request
+App 20796 stderr:     prep = self.prepare_request(req)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/sessions.py", line 394, in prepare_request
+App 20796 stderr:     hooks=merge_hooks(request.hooks, self.hooks),
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/models.py", line 294, in prepare
+App 20796 stderr:     self.prepare_url(url, params)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/models.py", line 354, in prepare_url
+App 20796 stderr:     raise MissingSchema(error)
+App 20796 stderr: MissingSchema: Invalid URL 'www.baidu.com': No schema supplied. Perhaps you meant http://www.baidu.com?
+App 20796 stderr: [ pid=20796, time=2016-08-29 21:15:15,301 ]: Exception on / [HEAD]
+App 20796 stderr: Traceback (most recent call last):
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+App 20796 stderr:     response = self.full_dispatch_request()
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+App 20796 stderr:     rv = self.handle_user_exception(e)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+App 20796 stderr:     reraise(exc_type, exc_value, tb)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+App 20796 stderr:     rv = self.dispatch_request()
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+App 20796 stderr:     return self.view_functions[rule.endpoint](**req.view_args)
+App 20796 stderr:   File "/home/loki/python/app.py", line 8, in hello
+App 20796 stderr:     r = requests.get("www.baidu.com")
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/api.py", line 70, in get
+App 20796 stderr:     return request('get', url, params=params, **kwargs)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/api.py", line 56, in request
+App 20796 stderr:     return session.request(method=method, url=url, **kwargs)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/sessions.py", line 461, in request
+App 20796 stderr:     prep = self.prepare_request(req)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/sessions.py", line 394, in prepare_request
+App 20796 stderr:     hooks=merge_hooks(request.hooks, self.hooks),
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/models.py", line 294, in prepare
+App 20796 stderr:     self.prepare_url(url, params)
+App 20796 stderr:   File "/home/loki/.local/lib/python2.7/site-packages/requests/models.py", line 354, in prepare_url
+App 20796 stderr:     raise MissingSchema(error)
+App 20796 stderr: MissingSchema: Invalid URL 'www.baidu.com': No schema supplied. Perhaps you meant http://www.baidu.com?
+
+[ 2016-08-29 21:15:44.1703 20763/7f050ce4d700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 21:15:44.1703 20763/7f0513a61780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 21:15:44.1703 20763/7f0513a61780 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 20796, application /home/loki/python/public (development)
+[ 2016-08-29 21:15:44.1704 20763/7f0507fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-08-29 21:15:44.1704 20763/7f0507fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-08-29 21:15:44.1706 20763/7f050ce4d700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-08-29 21:15:44.1706 20763/7f050ce4d700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-08-29 21:15:44.1706 20763/7f0513a61780 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 20796, application /home/loki/python/public (development)
+
+[ 2016-08-29 21:15:44.1708 20768/7f023f463700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 21:15:44.1708 20768/7f02460b6780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 21:15:44.1708 20768/7f023ec62700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-08-29 21:15:44.1708 20768/7f023ec62700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-08-29 21:15:44.1710 20768/7f023f463700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-08-29 21:15:44.1711 20768/7f02460b6780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-08-29 21:15:44.2975 20763/7f0513a61780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-08-29 21:16:01.5551 20883/7f391aac1780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2016-08-29 21:16:01.5836 20886/7f4183115780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-08-29 21:16:01.5837 20886/7f4183115780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-08-29 21:16:01.5851 20886/7f4183115780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 20886
+[ 2016-08-29 21:16:01.6141 20891/7f79cf4a6780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-08-29 21:16:01.6145 20891/7f79cf4a6780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 20891
+App 20919 stdout: 
+
+[ 2016-08-29 21:16:13.4826 20886/7f417c501700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 21:16:13.4831 20886/7f4183115780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 21:16:13.4831 20886/7f4183115780 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 20919, application /home/loki/python/public (development)
+[ 2016-08-29 21:16:13.4832 20886/7f417bd00700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-08-29 21:16:13.4832 20886/7f417bd00700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-08-29 21:16:13.4833 20886/7f417c501700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-08-29 21:16:13.4833 20886/7f417c501700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-08-29 21:16:13.4834 20886/7f4183115780 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 20919, application /home/loki/python/public (development)
+
+[ 2016-08-29 21:16:13.4835 20891/7f79c8853700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 21:16:13.4836 20891/7f79cf4a6780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 21:16:13.4836 20891/7f79c3fff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-08-29 21:16:13.4836 20891/7f79c3fff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-08-29 21:16:13.4837 20891/7f79c8853700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-08-29 21:16:13.4840 20891/7f79cf4a6780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-08-29 21:16:13.6093 20886/7f4183115780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
