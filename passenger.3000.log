@@ -1,0 +1,250 @@
+[ 2016-08-29 19:32:13.9184 16738/7fdfb7797780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2016-08-29 19:32:13.9476 16741/7f8c9c924780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-08-29 19:32:13.9477 16741/7f8c9c924780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-08-29 19:32:13.9491 16741/7f8c9c924780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 16741
+[ 2016-08-29 19:32:13.9789 16746/7f54e9aac780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-08-29 19:32:13.9794 16746/7f54e9aac780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 16746
+App 16777 stdout: 
+
+[ 2016-08-29 19:32:22.7702 16741/7f8c95d10700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 19:32:22.7702 16741/7f8c9c924780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 19:32:22.7703 16741/7f8c9c924780 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 16777, application /home/loki/python/public (development)
+[ 2016-08-29 19:32:22.7703 16741/7f8c9550f700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-08-29 19:32:22.7703 16741/7f8c9550f700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-08-29 19:32:22.7705 16741/7f8c95d10700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-08-29 19:32:22.7705 16741/7f8c95d10700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-08-29 19:32:22.7705 16741/7f8c9c924780 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 16777, application /home/loki/python/public (development)
+
+[ 2016-08-29 19:32:22.7707 16746/7f54e2e59700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 19:32:22.7707 16746/7f54e9aac780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 19:32:22.7707 16746/7f54e2658700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-08-29 19:32:22.7707 16746/7f54e2658700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-08-29 19:32:22.7709 16746/7f54e2e59700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-08-29 19:32:22.7710 16746/7f54e9aac780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-08-29 19:32:22.8959 16741/7f8c9c924780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-08-29 20:25:13.3505 19202/7f03a2e83780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2016-08-29 20:25:13.3781 19205/7f3678ed2780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-08-29 20:25:13.3782 19205/7f3678ed2780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-08-29 20:25:13.3795 19205/7f3678ed2780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 19205
+[ 2016-08-29 20:25:13.4077 19210/7f020853b780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-08-29 20:25:13.4082 19210/7f020853b780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 19210
+
+[ 2016-08-29 20:25:15.4125 19205/7f36722be700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 20:25:15.4125 19205/7f3678ed2780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 20:25:15.4126 19205/7f3671abd700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-08-29 20:25:15.4126 19205/7f3671abd700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-08-29 20:25:15.4128 19205/7f36722be700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-08-29 20:25:15.4128 19205/7f36722be700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-08-29 20:25:15.4133 19210/7f02018e8700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 20:25:15.4133 19210/7f020853b780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 20:25:15.4133 19210/7f02010e7700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-08-29 20:25:15.4133 19210/7f02010e7700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-08-29 20:25:15.4135 19210/7f02018e8700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-08-29 20:25:15.4136 19210/7f020853b780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+/usr/share/passenger/helper-scripts/prespawn:131:in `initialize': Cannot assign requested address - connect(2) for "::1" port 3000 (Errno::EADDRNOTAVAIL)
+	from /usr/share/passenger/helper-scripts/prespawn:131:in `new'
+	from /usr/share/passenger/helper-scripts/prespawn:131:in `rescue in connect'
+	from /usr/share/passenger/helper-scripts/prespawn:129:in `connect'
+	from /usr/share/passenger/helper-scripts/prespawn:89:in `socket'
+	from /usr/share/passenger/helper-scripts/prespawn:108:in `head_request'
+	from /usr/share/passenger/helper-scripts/prespawn:171:in `<main>'
+[ 2016-08-29 20:25:15.4738 19205/7f3678ed2780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-08-29 20:48:27.2793 19658/7f1525196780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2016-08-29 20:48:27.3080 19661/7f43db4fb780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-08-29 20:48:27.3081 19661/7f43db4fb780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-08-29 20:48:27.3096 19661/7f43db4fb780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 19661
+[ 2016-08-29 20:48:27.3397 19666/7f20c30b7780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-08-29 20:48:27.3404 19666/7f20c30b7780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 19666
+App 19697 stdout: 
+App 19697 stderr: Traceback (most recent call last):
+App 19697 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 325, in <module>
+App 19697 stderr:     
+App 19697 stderr: app_module = load_app()
+App 19697 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 62, in load_app
+App 19697 stderr:     
+App 19697 stderr: return imp.load_source('passenger_wsgi', startup_file)
+App 19697 stderr:   File "/home/loki/python/passenger_wsgi.py", line 1, in <module>
+App 19697 stderr:     
+App 19697 stderr: from test import loop as application
+App 19697 stderr:   File "
+App 19697 stderr: /home/loki/python/test.py
+App 19697 stderr: ", line 
+App 19697 stderr: 15
+App 19697 stderr: 
+App 19697 stderr:     
+App 19697 stderr: srv = yield from loop.create_server(app.make_handler(), '127.0.0.1')
+App 19697 stderr:     
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr:  
+App 19697 stderr: ^
+App 19697 stderr: SyntaxError
+App 19697 stderr: : 
+App 19697 stderr: invalid syntax
+App 19697 stderr: 
+[ 2016-08-29 20:48:29.5175 19661/7f43db38b700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/loki/python: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: dd9a0b31
+  Error details saved to: /tmp/passenger-error-5OJolA.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+Traceback (most recent call last):
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 325, in &lt;module&gt;
+    app_module = load_app()
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 62, in load_app
+    return imp.load_source(&apos;passenger_wsgi&apos;, startup_file)
+  File &quot;/home/loki/python/passenger_wsgi.py&quot;, line 1, in &lt;module&gt;
+    from test import loop as application
+  File &quot;/home/loki/python/test.py&quot;, line 15
+    srv = yield from loop.create_server(app.make_handler(), &apos;127.0.0.1&apos;)
+                   ^
+SyntaxError: invalid syntax
+</pre>
+
+[ 2016-08-29 20:48:29.5241 19661/7f43d48e7700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is dd9a0b31. Please see earlier logs for details about the error.
+App 19725 stdout: 
+App 19725 stderr: Traceback (most recent call last):
+App 19725 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 325, in <module>
+App 19725 stderr:     
+App 19725 stderr: app_module = load_app()
+App 19725 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 62, in load_app
+App 19725 stderr:     
+App 19725 stderr: return imp.load_source('passenger_wsgi', startup_file)
+App 19725 stderr:   File "/home/loki/python/passenger_wsgi.py", line 1, in <module>
+App 19725 stderr:     
+App 19725 stderr: from test import loop as application
+App 19725 stderr:   File "
+App 19725 stderr: /home/loki/python/test.py
+App 19725 stderr: ", line 
+App 19725 stderr: 15
+App 19725 stderr: 
+App 19725 stderr:     
+App 19725 stderr: srv = yield from loop.create_server(app.make_handler(), '127.0.0.1')
+App 19725 stderr:     
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr:  
+App 19725 stderr: ^
+App 19725 stderr: SyntaxError
+App 19725 stderr: : 
+App 19725 stderr: invalid syntax
+App 19725 stderr: 
+[ 2016-08-29 20:49:52.1807 19661/7f43db38b700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/loki/python: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: f50441ea
+  Error details saved to: /tmp/passenger-error-bTV7PQ.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+Traceback (most recent call last):
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 325, in &lt;module&gt;
+    app_module = load_app()
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 62, in load_app
+    return imp.load_source(&apos;passenger_wsgi&apos;, startup_file)
+  File &quot;/home/loki/python/passenger_wsgi.py&quot;, line 1, in &lt;module&gt;
+    from test import loop as application
+  File &quot;/home/loki/python/test.py&quot;, line 15
+    srv = yield from loop.create_server(app.make_handler(), &apos;127.0.0.1&apos;)
+                   ^
+SyntaxError: invalid syntax
+</pre>
+
+[ 2016-08-29 20:49:52.1861 19661/7f43d48e7700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-2] Cannot checkout session because a spawning error occurred. The identifier of the error is f50441ea. Please see earlier logs for details about the error.
+App 19736 stdout: 
+App 19736 stderr: Traceback (most recent call last):
+App 19736 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 325, in <module>
+App 19736 stderr:     
+App 19736 stderr: app_module = load_app()
+App 19736 stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 62, in load_app
+App 19736 stderr:     
+App 19736 stderr: return imp.load_source('passenger_wsgi', startup_file)
+App 19736 stderr:   File "/home/loki/python/passenger_wsgi.py", line 1, in <module>
+App 19736 stderr:     
+App 19736 stderr: from test import loop as application
+App 19736 stderr:   File "
+App 19736 stderr: /home/loki/python/test.py
+App 19736 stderr: ", line 
+App 19736 stderr: 15
+App 19736 stderr: 
+App 19736 stderr:     
+App 19736 stderr: srv = yield from loop.create_server(app.make_handler(), '127.0.0.1')
+App 19736 stderr:     
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr:  
+App 19736 stderr: ^
+App 19736 stderr: SyntaxError
+App 19736 stderr: : 
+App 19736 stderr: invalid syntax
+App 19736 stderr: 
+[ 2016-08-29 20:49:52.6881 19661/7f43db38b700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/loki/python: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: 09015fee
+  Error details saved to: /tmp/passenger-error-FXzd69.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+Traceback (most recent call last):
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 325, in &lt;module&gt;
+    app_module = load_app()
+  File &quot;/usr/share/passenger/helper-scripts/wsgi-loader.py&quot;, line 62, in load_app
+    return imp.load_source(&apos;passenger_wsgi&apos;, startup_file)
+  File &quot;/home/loki/python/passenger_wsgi.py&quot;, line 1, in &lt;module&gt;
+    from test import loop as application
+  File &quot;/home/loki/python/test.py&quot;, line 15
+    srv = yield from loop.create_server(app.make_handler(), &apos;127.0.0.1&apos;)
+                   ^
+SyntaxError: invalid syntax
+</pre>
+
+[ 2016-08-29 20:49:52.6939 19661/7f43d48e7700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-3] Cannot checkout session because a spawning error occurred. The identifier of the error is 09015fee. Please see earlier logs for details about the error.
+
+[ 2016-08-29 20:54:36.8835 19661/7f43d48e7700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 20:54:36.8836 19661/7f43db4fb780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 20:54:36.8836 19661/7f43cffff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-08-29 20:54:36.8836 19661/7f43cffff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-08-29 20:54:36.8837 19661/7f43d48e7700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-08-29 20:54:36.8838 19661/7f43d48e7700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-08-29 20:54:36.8839 19666/7f20bc464700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-08-29 20:54:36.8840 19666/7f20c30b7780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-08-29 20:54:36.8840 19666/7f20bbc63700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-08-29 20:54:36.8840 19666/7f20bbc63700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-08-29 20:54:36.8842 19666/7f20bc464700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-08-29 20:54:36.8843 19666/7f20c30b7780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-08-29 20:54:36.9160 19661/7f43db4fb780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
