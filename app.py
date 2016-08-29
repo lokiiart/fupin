@@ -6,7 +6,8 @@ MyApp = Flask(__name__)
 @MyApp.route("/")
 def hello():
 	r = requests.get("http://www.cpad.gov.cn")
-	return r.text.encode('utf8')
+        r.encoding = r.apparent_encoding
+        return r.text
 
 if __name__ == "__main__":
 	MyApp.run()
